@@ -1,0 +1,6 @@
+% function to smooth training and test data with locally weighted
+% regressions
+% INPUT: data[]
+function smooth_data = smooth(data)
+    
+end

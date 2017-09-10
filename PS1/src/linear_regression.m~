@@ -1,0 +1,7 @@
+d = quasar_train(2,:);
+x = [lambdas, ones(size(lambdas,1),1)];
+y = d';
+theta = (x' * x) \ x' * y;
+scatter(lambdas, d');
+hold on;
+plot(lambdas, thet)
